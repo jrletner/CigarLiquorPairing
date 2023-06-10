@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CigarComponent } from './cigar/cigar.component';
 import { LiquorComponent } from './liquor/liquor.component';
+import { PairingComponent } from './pairing/pairing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CigarComponent,
-    LiquorComponent
+    LiquorComponent,
+    PairingComponent
   ],
   imports: [
     BrowserModule,
