@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { CigarComponent } from './cigar/cigar.component';
 import { LiquorComponent } from './liquor/liquor.component';
 import { PairingComponent } from './pairing/pairing.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PairingComponent } from './pairing/pairing.component';
     HomeComponent,
     CigarComponent,
     LiquorComponent,
-    PairingComponent
+    PairingComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
