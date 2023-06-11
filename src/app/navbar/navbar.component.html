@@ -1,1 +1,25 @@
-<p>navbar works!</p>
+<mat-toolbar color="primary" class="toolbarHeader">
+  <mat-toolbar-row>
+    <h1>
+      <a class="homeHeaderLink" [routerLink]="'/home'"
+        >Cigar & Liquor Pairing</a
+      >
+    </h1>
+
+    <div class="menuButtonHead">
+      <a mat-button class="matButton" [routerLink]="'/cigar'"> My Cigars </a>
+      <a mat-button class="matButton" [routerLink]="'/liquor'"> My Liquors </a>
+      <a mat-button class="matButton" [routerLink]="'/pairing'">
+        My Pairings
+      </a>
+      <a mat-button class="matButton" [routerLink]="'/auth'">
+        Sign up / Sign in
+      </a>
+    </div>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="toolbarMsg">
+    <span style="font-size: 12px"
+      >Track your favorite cigar and liquor pairings</span
+    >
+  </mat-toolbar-row>
+</mat-toolbar>
