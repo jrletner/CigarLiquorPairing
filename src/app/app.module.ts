@@ -9,6 +9,7 @@ import { LiquorComponent } from './liquor/liquor.component';
 import { PairingComponent } from './pairing/pairing.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     LiquorComponent,
     PairingComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
