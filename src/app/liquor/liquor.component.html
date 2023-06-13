@@ -1,1 +1,9 @@
-<p>liquor works!</p>
+<div *ngFor="let liquor of liquors">
+  <div class="liquor">
+    <h2>{{ liquor.name }}</h2>
+    <h3>{{ liquor.brand }}</h3>
+    <h4>{{ liquor.description }}</h4>
+    <img src="{{ liquor.image_path }}" alt="Italian Trulli" />
+  </div>
+  <br /><br />
+</div>
