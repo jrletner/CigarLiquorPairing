@@ -1,1 +1,9 @@
-<p>cigar works!</p>
+<div *ngFor="let cigar of cigars">
+  <div class="cigar">
+    <h2>{{ cigar.name }}</h2>
+    <h3>{{ cigar.brand }}</h3>
+    <h4>{{ cigar.description }}</h4>
+    <img src="{{ cigar.image_path }}" alt="Italian Trulli" />
+  </div>
+  <br /><br />
+</div>
