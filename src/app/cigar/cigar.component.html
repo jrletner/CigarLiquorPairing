@@ -3,6 +3,9 @@
     <h2>{{ cigar.name }}</h2>
     <h3>{{ cigar.brand }}</h3>
     <h4>{{ cigar.description }}</h4>
+    <h5>
+      Belongs to user: {{ cigar.user.first_name }} {{ cigar.user.last_name }}
+    </h5>
     <img src="{{ cigar.image_path }}" alt="Italian Trulli" />
   </div>
   <br /><br />
